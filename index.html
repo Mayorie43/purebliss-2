@@ -1,53 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Purebliss | For the Assets, Not the Chasers</title>
+  <title>Purebliss</title>
 
-  <!-- Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- Animation Library -->
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-  <!-- Main Styles -->
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="logo-area">
-      <!-- optional top logo if needed -->
-    </div>
-  </header>
+  <section class="hero">
+    <div class="overlay"></div>
 
-  <!-- Hero Section -->
-  <section class="hero" data-aos="fade-up">
-    <div class="hero-text">
-      <h4 class="sub">You Are The Price</h4>
+    <div class="hero-content">
+      <img src="images/hrt.png" alt="Logo" class="logo">
 
-      <div class="logo-area">
-        <img src="images/ggg.png" alt="Purebliss Logo" class="logo-img">
-      </div>
+      <h4 class="tagline">You Are The <span class="dark-text">Price</span></h4>
 
-      <p class="body-text">10 Second Maintenance Fix. Launching January</p>
-      <p class="cta">Get exclusive access to the January Launch.</p>
+      <h1 class="headline">FOR THE <span class="dark-text">ASSETS</span>, NOT THE CHASERS</h1>
 
-      <form class="email-form" action="#" method="post">
-        <input type="email" placeholder="Enter your email address" required>
-        <button type="submit" class="btn">Get on the list</button>
+      <p class="subtext">The only rule: Don’t be dry. About it</p>
+      <br>
+      <p class="note">10 seconds maintenance fix for the assets is coming.</p>
+
+      <form class="email-form">
+        <input type="email" placeholder="ENTER EMAIL ADDRESS" required>
+        <button type="submit">GET ON THE LIST</button>
       </form>
     </div>
   </section>
-
-  <script>
-    AOS.init({ duration: 1000, once: true });
-  </script>
 
 </body>
 </html>
